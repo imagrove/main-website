@@ -4,3 +4,4 @@ node_modules
 ga_automation.js
 package.json
 package-lock.json
+.vercel
