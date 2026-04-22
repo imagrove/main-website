@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FGTP4HG5X7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FGTP4HG5X7');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagrove | 驱动物理世界的数字化转型</title>
+    <meta name="description" content="Imagrove 致力于探索人机交互、远程操控与自动化营销的边界，为影视、工业、港口等行业提供高精尖技术解决方案。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+        :root {
+            --brand: #2563eb;
+        }
+        body {
+            font-family: 'Space Grotesk', -apple-system, sans-serif;
+            background-color: #050505;
+            color: #fafafa;
+        }
+        .glow-text {
+            text-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.8);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .gradient-border {
+            position: relative;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        .gradient-border::before {
+            content: "";
+            position: absolute;
+            inset: -1px;
+            border-radius: 21px;
+            padding: 1px;
+            background: linear-gradient(45deg, transparent, rgba(37, 99, 235, 0.3), transparent);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+        .hero-mesh {
+            background-image: radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.1) 0, transparent 50%),
+                              radial-gradient(at 50% 0%, rgba(139, 92, 246, 0.05) 0, transparent 50%);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass-nav py-5 px-8 flex justify-between items-center">
+        <div class="text-2xl font-bold tracking-tighter text-white">
+            <span class="text-blue-600">I</span>MAGROVE
+        </div>
+        <div class="hidden md:flex space-x-12 text-sm font-medium tracking-wide text-gray-400">
+            <a href="#about" class="hover:text-white transition">愿景</a>
+            <a href="#ventures" class="hover:text-white transition">项目矩阵</a>
+            <a href="#lab" class="hover:text-white transition">自动化实验室</a>
+        </div>
+        <a href="mailto:info@imagrove.com" class="text-sm font-bold border border-white/10 hover:bg-white hover:text-black transition px-6 py-2 rounded-full">
+            联系我们
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-20 px-8 hero-mesh">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="inline-block px-4 py-1 mb-8 border border-blue-500/30 rounded-full bg-blue-500/5 text-blue-400 text-xs font-bold tracking-widest uppercase">
+                Exploring the Future of Human-Machine Interaction
+            </div>
+            <h1 class="text-6xl md:text-9xl font-bold tracking-tighter mb-8 glow-text">
+                驱动物理世界的<br>
+                <span class="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">数字化转型</span>
+            </h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed mb-12">
+                Imagrove 是一个专注于远程操控、无人系统与多媒体交互的技术集群。我们通过先进的算法与硬件闭环，打破空间的局限。
+            </p>
+            <div class="flex justify-center gap-6">
+                <a href="#ventures" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold transition">探索项目矩阵</a>
+                <a href="https://github.com/imagrove" class="bg-white/5 hover:bg-white/10 border border-white/10 px-10 py-4 rounded-xl font-bold transition">GitHub 组织</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Ventures -->
+    <section id="ventures" class="py-32 px-8 bg-[#080808]">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+                <div>
+                    <h2 class="text-4xl md:text-6xl font-bold mb-4">项目矩阵</h2>
+                    <p class="text-gray-500 max-w-md">从地面到天空，从模拟到实战，我们的技术正在各个垂直行业落地。</p>
+                </div>
+                <div class="text-sm text-gray-400 uppercase tracking-widest border-b border-white/10 pb-2">
+                    Current Active Ventures
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Venture 1: TelePilot -->
+                <div class="gradient-border p-8 group cursor-pointer hover:bg-white/5">
+                    <div class="text-blue-500 mb-6 text-3xl"><i class="fa-solid fa-gamepad"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">TelePilot System</h3>
+                    <p class="text-gray-400 text-sm mb-8 leading-relaxed">
+                        沉浸式实车远控驾舱，实现“人机分离、感官同步”。为影视特技与高危环境提供安全的操控保障。
+                    </p>
+                    <a href="https://telepilot.imagrove.com" class="text-xs font-bold uppercase tracking-widest text-blue-500 flex items-center gap-2 group-hover:gap-4 transition-all">
+                        Visit Site <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Venture 2: Drone Intel -->
+                <div class="gradient-border p-8 group cursor-pointer hover:bg-white/5">
+                    <div class="text-purple-500 mb-6 text-3xl"><i class="fa-solid fa-drone"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Drone Intelligence</h3>
+                    <p class="text-gray-400 text-sm mb-8 leading-relaxed">
+                        基于 Astro 架构的无人机技术平台。专注于空中自动化任务与实时数据回传系统。
+                    </p>
+                    <a href="https://drone.imagrove.com" class="text-xs font-bold uppercase tracking-widest text-purple-500 flex items-center gap-2 group-hover:gap-4 transition-all">
+                        Visit Site <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Venture 3: AV Control -->
+                <div class="gradient-border p-8 group cursor-pointer hover:bg-white/5">
+                    <div class="text-emerald-500 mb-6 text-3xl"><i class="fa-solid fa-display"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Media Control</h3>
+                    <p class="text-gray-400 text-sm mb-8 leading-relaxed">
+                        一站式多媒体播控解决方案。为数字展馆、博物馆提供稳定的分布式控制与交互体验。
+                    </p>
+                    <a href="https://media-control.imagrove.com" class="text-xs font-bold uppercase tracking-widest text-emerald-500 flex items-center gap-2 group-hover:gap-4 transition-all">
+                        Visit Site <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketing Lab Section -->
+    <section id="lab" class="py-32 px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="text-blue-500 text-6xl mb-12"><i class="fa-solid fa-flask-vial"></i></div>
+            <h2 class="text-4xl md:text-6xl font-bold mb-8">30_Marketing_Lab</h2>
+            <p class="text-xl text-gray-400 leading-relaxed mb-12">
+                我们不仅创造物理工具，也创造数据工具。通过全自动化的“迷雾测试”链路，我们能以工业级速度验证每一个创新点。
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-3xl font-bold text-white mb-2">30min</div>
+                    <div class="text-xs uppercase text-gray-500 tracking-wider">从构思到上线</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-white mb-2">100%</div>
+                    <div class="text-xs uppercase text-gray-500 tracking-wider">自动埋点覆盖</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-white mb-2">3+</div>
+                    <div class="text-xs uppercase text-gray-500 tracking-wider">活跃测试项目</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-white mb-2">5G</div>
+                    <div class="text-xs uppercase text-gray-500 tracking-wider">低延迟核心栈</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 px-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div>
+                <div class="text-2xl font-bold tracking-tighter text-white mb-4">IMAGROVE</div>
+                <p class="text-sm text-gray-500 max-w-xs">Building the bridge between code and physical reality.</p>
+            </div>
+            <div class="flex space-x-12">
+                <a href="https://github.com/imagrove" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-github text-2xl"></i></a>
+                <a href="https://linkedin.com/company/imagrove" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-linkedin text-2xl"></i></a>
+            </div>
+            <div class="text-xs text-gray-600 uppercase tracking-widest">
+                © 2026 IMAGROVE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
